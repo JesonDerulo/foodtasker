@@ -29,5 +29,7 @@ urlpatterns = [
         {'next_page': '/'},
         name='restaurant-sign-out'),
     url(r'restaurant/$', views.restaurant_home, name='restaurant-home'),
+    url(r'restaurant/sign-up', views.restaurant_sign_up,
+        name='restaurant-sign-up'),
 
 ]
