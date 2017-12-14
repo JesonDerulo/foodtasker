@@ -1,1 +1,6 @@
-<h1>Order</h1>
+{% extends 'restaurant/base.html' %}
+
+{% block restaurant %}
+<h2>Order Page</h2>
+<a href="{% url 'restaurant-sign-out'%}">Log out</a>
+{% endblock %}
