@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'foodtaskerapp',
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [

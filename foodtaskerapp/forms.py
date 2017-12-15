@@ -14,4 +14,4 @@ class UserForm(forms.ModelForm):
 class RestaurantForm(forms.ModelForm):
     class Meta:
         model = Restaurants
-        fields = ('name', 'phone', 'address', 'logo')
+        fields = ('name', 'phone', 'address', 'logo','date')

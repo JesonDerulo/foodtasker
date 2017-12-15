@@ -1,10 +1,12 @@
 {% extends 'base.html' %}
+{% load bootstrap3 %}
 
 {% block content %}
+
 <h2>Sign-in Page</h2>
 
 <form method="POST"> {% csrf_token %}
-    {{ form.as_p }}
+    {% bootstrap_form form %}
     <button type="submit" class="btn btn-success">Sign In</button>
 </form>
 
