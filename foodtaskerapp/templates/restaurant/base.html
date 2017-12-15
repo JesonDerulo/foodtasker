@@ -3,6 +3,7 @@
 {% block content %}
 
 Hi, {{ request.user }}
+This is {{ request.user.restaurant.name }}
 <hr>
 <a href="{% url 'restaurant-account' %}">Account</a>
 -
